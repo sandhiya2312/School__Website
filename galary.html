@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      body {
+        background: #f9f9f9;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 36px;
+        color: #333;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 25px;
+        justify-items: center;
+      }
+
+      .gallery img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+
+    <div class="gallery">
+      <img src="jj 4.jpg" alt="Image 1" />
+      <img src="jb 11.jpg" alt="Image 2" />
+      <img src="jb 12.jpg" alt="Image 3" />
+      <img src="jb 14.jpg" alt="Image 4" />
+      <img src="jb 2.jpeg" alt="Image 5" />
+      <img src="jb 7.jpg" alt="Image 6" />
+      <img src="jb 8.jpg" alt="Image 7" />
+      <img src="jb3.jpeg" alt="Image 8" />
+      <img src="jb4.jpeg" alt="Image 9" />
+      <img src="jb6.jpg" alt="Image 10" />
+      <img src="jb 15.jpg" alt="Image 11" />
+      <img src="jb 5.jpg" alt="Image 12" />
+      <img src="founder.jpg" alt="Image 13" />
+      <img src="play.jpg" alt="Image 14" />
+      <img src="jb 1.jpg" alt="Image 15" />
+      <img src="jb 16.jpg" alt="Image 15" />
+      <img src="jb 17.jpg" alt="Image 15" />
+      <img src="jb 19.jpg" alt="Image 15" />
+    </div>
+  </body>
+</html>
