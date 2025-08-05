@@ -104,18 +104,13 @@
 <ol style="max-width: 800px; text-align: left; margin-bottom: 30px; color: #555; font-size: 18px;">
   <li>The appropriate application form must be accompanied by the following:
     <ul>
-      <li>Copies of previous year’s final reports for entry into class 1 and above.</li>
+      <li>Copies of TC.</li>
       <li>Copy of birth certificate.</li>
       <li>Passport size photograph – 1 [recent]</li>
       <li>Community certificate</li>
-      <li>Two self-addressed and stamped envelopes</li>
+      <li>Two self-addressed </li>
     </ul>
   </li>
-  <li>In the second step, students write an entrance test in the months of March or April. 
-      Written test is conducted in four papers — English, Language, Maths, and Science.</li>
-  <li>In the third step, students who qualify for the written test are invited for an interview.</li>
-  <li>The number of students admitted every year depends on the number of vacancies that become available.</li>
-  <li>For further details on admissions, please contact: Principal/Correspondent.</li>
 </ol>
 <h1>PRE-BOOKING FORM</h1>
 
@@ -149,8 +144,8 @@
         <option>Other</option>
       </select>
 
-      <label>Location:</label>
-      <input type="text" id="location" required />
+      <label>Address</label>
+     <textarea id="address" required></textarea>
 
       <label>Pin Code:</label>
       <input
@@ -160,7 +155,14 @@
         required
         placeholder="6 digit PIN"
       />
-
+      <label>Transfer Certificate:</label>
+      <input type="file" id="tc" placeholder="Choose file" required/>
+      <label>Student Photo:</label>
+      <input type="file" id="photo" placeholder="Choose file" required/>
+      <label>Birth Certificate:</label>
+      <input type="file" id="BC" placeholder="Choose file" required/>
+      <label>Community Certificate:</label>
+      <input type="file" id="CC" placeholder="Choose file" required/>
       <label>Message:</label>
       <textarea id="message" required></textarea>
 
