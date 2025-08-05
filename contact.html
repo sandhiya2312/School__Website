@@ -153,20 +153,21 @@
         <form>
           <div class="form-group">
             <label>Your Name</label>
-            <input type="text" required />
+            <input type="text" id="name" required />
           </div>
           <div class="form-group">
             <label>Your Mail</label>
-            <input type="email" required />
+            <input type="email" id="email" required />
           </div>
           <div class="form-group">
             <label>Address</label>
-            <textarea></textarea>
+            <textarea id="address"></textarea>
           </div>
           <div class="form-group">
             <label>Mobile Number</label>
             <input
               type="tel"
+              id="phno"
               pattern="[0-9]{10}"
               placeholder="10 digit number"
               required
@@ -174,7 +175,7 @@
           </div>
           <div class="form-group">
             <label>Queries</label>
-            <textarea required></textarea>
+            <textarea id="queries" required></textarea>
           </div>
           <div class="checkbox-group">
             <input type="checkbox" id="copy" />
